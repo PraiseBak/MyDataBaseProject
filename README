@@ -1,10 +1,23 @@
-2020 Semetser Advenced Data Structure Project
+# 개요
+2020 2학년 고급 자료구조 과제 B+트리 기반 데이터베이스
+2달
 
-project 1 : LinkedList Database
 
-project 2 : B+ Tree Database
-	1.make data from wine data
-	2.move wine data into database
-	3.modify database
+# 요구사항
 
-implement: JAVA with eclipse
+- wine data에 특화된 B+ 트리 데이터베이스 구현
+- B+ 트리를 구현하되, 대량의 wine data를 저장하는데 있어서 메모리를 효율적으로 사용할 것
+- 또한 너무 느리면 안됨
+
+# 기능
+
+- B+Tree 구현
+    - 메모리를 최대한 적게 소요하는 방식을 위해
+        
+        브랜치들간 연결하지 않고 항상 부모를 통해 노드를 탐색할 수 있도록 하였음
+        
+- (RandomAccessFile 사용)
+- 파일 기반 입력
+- 특정 인덱스 삭제 기능
+- 검색
+- 직렬화 저장 및 불러오기 기능
