@@ -30,7 +30,7 @@
 
 # 파일 명세
 
-- **[DBSystem.java](https://github.com/PraiseBak/MyDataBaseProject/blob/master/DBSystem.java)** - 메인 실행 파일로, 데이터베이스 시스템을 관리하는 역할을 함
+- **[DbSystem.java](https://github.com/PraiseBak/MyDataBaseProject/blob/master/DbSystem.java)** - 메인 실행 파일로, 데이터베이스 시스템을 관리하는 역할을 함
 - **[DbInterface.java](https://github.com/PraiseBak/MyDataBaseProject/blob/master/DbInterface.java)** - CLI 함수들을 정의한 인터페이스
 - **[BPlusTree.java](https://github.com/PraiseBak/MyDataBaseProject/blob/master/BPlusTree.java)** - B+ 트리의 주요 기능을 구현한 클래스
 - **[BPlusTreeInterface.java](https://github.com/PraiseBak/MyDataBaseProject/blob/master/BPlusTreeInterface.java)** - B+ 트리 동작을 명세한 인터페이스
